@@ -29,18 +29,19 @@ pip install tensorflow keras opencv-python numpy pandas matplotlib
 
 
 
-Dataset
+### Dataset
 Ensure you have the dataset structured with images in directories named after their respective labels.
 
-Model
+### Model
 Architecture: Convolutional Neural Network (CNN)
 Layers:
 Conv2D, MaxPooling2D, Flatten, Dense
 Activation Functions: ReLU, Softmax
 Optimizer: Adam
 Loss Function: Sparse Categorical Crossentropy
-Evaluation
+
+### Evaluation
 The model is evaluated on a test set, and the test accuracy is printed. Further metrics can be added as needed.
 
-Results
+### Results
 Test Accuracy: 0.79666668176651
